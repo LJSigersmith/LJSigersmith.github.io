@@ -1,33 +1,41 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Congress Feedback</<title>
+  <title>Congress Feedback</title>
     <style>
       body {
         background-color: #365070;
       }
       form {
-        padding: 100px;
+        padding: 200px;
+        width: 50%;
+      }
+      input, textarea {
+        width: 100%;
+      }
+      textarea {
+        height: 50px;
+      }
+      label {
+        color: white;
+      }
+      button {
+        padding: 25px;
       }
     </style>
 </head>
-<body>
-  <form
-  action="https://formspree.io/xpzrwzqa"
-  method="POST"
->
-  <label>
-    Email (optional):
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Feedback:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Submit Feedback</button>
-</form>
-</body>
-</html>
+  <body>
+    <form action="https://formspree.io/xpzrwzqa" method="POST">
+    <label>
+      Email (optional)<br />
+      <input type="text" name="_replyto"><br /><br />
+    </label>
+    <label>
+      Feedback<br />
+      <textarea name="message"></textarea>
+      <br />
+    </label>
+    <br />
+    <button type="submit">Submit Feedback</button>
+  </form>
+  </body>
+  </html>
