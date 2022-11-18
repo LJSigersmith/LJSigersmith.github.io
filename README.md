@@ -1,1 +1,2 @@
-# LJs-Apps
+# Lance Sigersmith
+Personal Website
