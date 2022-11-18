@@ -2,33 +2,122 @@
 <html>
 <head>
 <link href="css/index.css" rel="stylesheet" type="text/css" />
+<script src="js/index.js"></script>
 <title> Lance Sigersmith </title>
 </head>
 <body>
   <div id="menu">
-    <table>
-      <tr>
-        <td>Home</p></td>
-        <td>Projects</p></td>
-      </tr>
-    </table>
+    <a id="name" href="#">Lance Sigersmith</a>
+    <a class="menu-option" href="#projects">Projects</a>
+    <a class="menu-option" href="#skills">Skills</a>
   </div>
+
   <div id="header">
-    <p>Hey, I'm</p>
+    <img id="headshot" src="/img/default-person.jpg" />
     <h2>Lance Sigersmith</h2>
-    <p>I'm a student at the University of Connecticut pursuing a B.S. in computer science with a concentration in software engineering.<p>
-  </div>
-
-  <div id="about">
-    <h3> About Me </h3>
-  </div>
-
-  <div id="skills">
+    <div id="uconn">
+      <img src="img/uconn.png" />
+      <p>Student at the University of Connecticut</p>
+    </div>
+    <p>Pursuing a B.S. in Computer Science with a concentration in Software Design and Development.</p>
+    <div id="courses-container">
+      <div id="courses-title">Relevant Coursework<hr /></div>
+      <div id="courses">
+        <div class="course">C++ Essentials</div>
+        <div class="course">Principles of Databases</div>
+        <div class="course">Data Structures </div>
+        <div class="course">Systems Programming</div>
+        <div class="course">Software Engineering</div>
+        <div class="course">Mobile Application Development</div>
+        <div class="course">Algorithms and Complexity</div>
+        <div class="course">Multivariable Calculus</div>
+        <div class="course">Applied Linear Algebra</div>
+        <div class="course">Cybersecurity</div>
+        <div class="course">Computer and Network Security</div>
+      </div>
+      <hr />
+    </div>
   </div>
 
   <div id="projects">
+    <button type="button" class ="collapsible-button">Projects</button>
+    <div class="projects">
+      <div class="project">
+        <div class="project-header">
+          <img class="project-icon" src="img/project.png" />
+          <p>Project Name</p>
+          <a class="project-github-link" href="index.html"><img class="project-github-icon" src="img/github.png" /></a>
+        </div>
+        <div class="project-description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras leo tellus, imperdiet pellentesque ultrices vitae, vehicula ornare mauris. Sed vel feugiat nulla, gravida luctus enim. Integer erat est, mollis a mi at, pharetra sollicitudin neque. Suspendisse pretium dui non erat tempus, sit amet malesuada tellus pulvinar. Etiam nec tempus velit, at laoreet dolor.</p>
+        </div>
+        <div class="project-languages">
+          <p>Python</p>
+          <p>C++</p>
+          <p>PHP</p>
+        </div>
+      </div>
+
+      <div class="project-border"></div>
+    
+      <div class="project">
+        <div class="project-header">
+          <img class="project-icon" src="img/project.png" />
+          <p>Project Name</p>
+          <a class="project-github-link" href="index.html"><img class="project-github-icon" src="img/github.png" /></a>
+        </div>
+        <div class="project-description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras leo tellus, imperdiet pellentesque ultrices vitae, vehicula ornare mauris. Sed vel feugiat nulla, gravida luctus enim. Integer erat est, mollis a mi at, pharetra sollicitudin neque. Suspendisse pretium dui non erat tempus, sit amet malesuada tellus pulvinar. Etiam nec tempus velit, at laoreet dolor.</p>
+        </div>
+        <div class="project-languages">
+          <p>Python</p>
+          <p>C++</p>
+          <p>PHP</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <img class="project-icon" src="img/project.png" />
+          <p>Project Name</p>
+          <a class="project-github-link" href="index.html"><img class="project-github-icon" src="img/github.png" /></a>
+        </div>
+        <div class="project-description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras leo tellus, imperdiet pellentesque ultrices vitae, vehicula ornare mauris. Sed vel feugiat nulla, gravida luctus enim. Integer erat est, mollis a mi at, pharetra sollicitudin neque. Suspendisse pretium dui non erat tempus, sit amet malesuada tellus pulvinar. Etiam nec tempus velit, at laoreet dolor.</p>
+        </div>
+        <div class="project-languages">
+          <p>Python</p>
+          <p>C++</p>
+          <p>PHP</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <img class="project-icon" src="img/project.png" />
+          <p>Project Name</p>
+          <a class="project-github-link" href="index.html"><img class="project-github-icon" src="img/github.png" /></a>
+        </div>
+        <div class="project-description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras leo tellus, imperdiet pellentesque ultrices vitae, vehicula ornare mauris. Sed vel feugiat nulla, gravida luctus enim. Integer erat est, mollis a mi at, pharetra sollicitudin neque. Suspendisse pretium dui non erat tempus, sit amet malesuada tellus pulvinar. Etiam nec tempus velit, at laoreet dolor.</p>
+        </div>
+        <div class="project-languages">
+          <p>Python</p>
+          <p>C++</p>
+          <p>PHP</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="skills">
+    <button type="button" class ="collapsible-button" id="bottom-collapsible-button">Skills</button>
+    <div class="collapsible-content">
+      <p>Skill 1</p>
+    </div>
   </div>
 
   </div>
+<script src="js/index.js"></script>
 </body>
 </html>
