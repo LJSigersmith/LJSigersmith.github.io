@@ -133,7 +133,6 @@ body, html {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    display: none;
     background-color: #d1d1e0;
 }
 
@@ -152,6 +151,12 @@ body, html {
     padding: 20px;
     display: flex;
     font-family: "Proxima Nova";
+}
+
+.project-header p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
 }
 
   .project-icon {
@@ -189,3 +194,19 @@ body, html {
   #bottom-collapsible-button {
     border-color: #c2c2d6 #d1d1e0 #c2c2d6 #d1d1e0;
   }
+
+  #skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+  }
+
+#skills-content p {
+    margin: 20px;
+    width: 100px;
+    background-color: #d1d1e0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
